@@ -4,20 +4,43 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1 className="h1">
+            Flex container with flex direction "row" (note that we apply the properties for this text using the "h1" selector)
+        </h1>
+        <div className="flex-container-row">
+            <div className="flex-item">
+                Item 1
+            </div>
+            <div className="flex-item">
+                Item 2
+            </div>
+            <div className="flex-item">
+                Item 3
+            </div>
+            <div className="flex-item">
+                Item 4
+            </div>
+            <div className="flex-item">
+                Item 5
+            </div>
+            <div className="flex-item">
+                Item 6
+            </div>
+        </div>
+        <h2 className="h2">
+          Flex container with flex direction "column" (note that we apply the properties for this text using the "h2" selector)
+        </h2>
+        <div className="flex-container-col">
+            <div className="flex-item">
+                Item 1
+            </div>
+            <div className="flex-item">
+                Item 2
+            </div>
+            <div className="flex-item">
+                Item 3
+            </div>
+        </div>
     </div>
   );
 }
