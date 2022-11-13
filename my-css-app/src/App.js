@@ -42,7 +42,7 @@ function App() {
             </div>
         </div>
         <h3 className="h3">
-          You can also nest flex containers!
+          You can also nest flex containers!  (note that we apply the properties for this text using the "h3" selector)
         </h3>
         <div className="flex-container-row">
         <div className="flex-container-col">
