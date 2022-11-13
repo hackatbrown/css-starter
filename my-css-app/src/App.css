@@ -29,6 +29,12 @@
   font-size: 2rem;
 }
 
+.h3 {
+  background-color:orange;
+  color:black;
+  font-size: 2rem;
+}
+
 .flex-container-row {
   display:flex;
   flex-direction: row;

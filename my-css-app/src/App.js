@@ -41,6 +41,44 @@ function App() {
                 Item 3
             </div>
         </div>
+        <h3 className="h3">
+          You can also nest flex containers!
+        </h3>
+        <div className="flex-container-row">
+        <div className="flex-container-col">
+            <div className="flex-item">
+                Item 1
+            </div>
+            <div className="flex-item">
+                Item 2
+            </div>
+            <div className="flex-item">
+                Item 3
+            </div>
+        </div>
+        <div className="flex-container-col">
+            <div className="flex-item">
+                Item 4
+            </div>
+            <div className="flex-item">
+                Item 5
+            </div>
+            <div className="flex-item">
+                Item 6
+            </div>
+        </div>
+        <div className="flex-container-col">
+            <div className="flex-item">
+                Item 7
+            </div>
+            <div className="flex-item">
+                Item 8
+            </div>
+            <div className="flex-item">
+                Item 9
+            </div>
+        </div>
+        </div>
     </div>
   );
 }
