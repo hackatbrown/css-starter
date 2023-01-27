@@ -37,7 +37,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ### time to play in the sandbox!
 
-This starter kit includes a very basic React App that you can stylise and play with. To run it, clone this repo locally, navigate to the folder 'my-css-app' within the repo root folder, and run 'npm start' in your terminal. To see the associated code, open up the 'my-css-app' in your IDE of choice. When the app is up and running on your browser, you should see 3 groups of blue rectangles with various flexbox properties. 
+This starter kit includes a very basic React App that you can stylise and play with. To run it, clone this repo locally, navigate to the folder 'my-css-app' within the repo root folder, run 'npm install' and then run 'npm start' in your terminal. To see the associated code, open up the 'my-css-app' in your IDE of choice. When the app is up and running on your browser, you should see 3 groups of blue rectangles with various flexbox properties. 
 
 In `App.js`, you can observe how each html element corresponds to each visual element you can see on screen. in `App.css`, you can observe how each chunk of code assigns certain values to properties of an html element, which is selected via its classname.
 
@@ -61,6 +61,7 @@ Master your flexbox skills: https://flexboxfroggy.com/ \
 Docs: https://developer.mozilla.org/en-US/docs/Web/CSS \
 CSS Rules (includes how to make and change font styles): https://www.cssportal.com/css-at-rules/ \
 CSS Colornames: https://www.cssportal.com/css3-color-names/
+Interactive HTML and CSS cheatsheet: https://htmlcheatsheet.com/css/ \
 
 
 
