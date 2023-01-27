@@ -1,60 +1,62 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  width: 100vw;
+  background-color: white;
+  color: black;
 }
 
-.h1 {
-  background-color:black;
-  color:white;
-  font-size: 3rem;
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  /* ^ this centers .h1 within the header div */
+  padding: 10px 0;
+  width: 80vw;
+  font-size: 28px;
 }
 
-.h2 {
-  background-color:yellow;
-  color:black;
-  font-size: 2rem;
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  font-size: 24px;
 }
 
-.h3 {
-  background-color:orange;
-  color:black;
-  font-size: 2rem;
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  font-size: 22px;
 }
 
 .flex-container-row {
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   align-items: center;
-  justify-content:center;
-  gap:40px;
-  padding:10px
+  justify-content: center;
+  gap: 40px;
+  padding: 10px
 }
 
 .flex-container-col {
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  justify-content:center;
-  gap:40px;
-  padding:10px;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
 }
 
 .flex-item {
-  padding:40px;
-  border:1px solid black;
+  padding: 40px;
+  border-radius: 4px;
   color: white;
-  background-color: brown;
+  background-color: rgb(70, 74, 106);
 }
