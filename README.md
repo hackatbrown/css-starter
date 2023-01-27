@@ -15,6 +15,6 @@ The structure of a css file looks something like:
 >    property: value
 >    property: value
 >    property: value
->}
+> }
 
 ### 
