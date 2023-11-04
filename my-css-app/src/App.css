@@ -1,62 +1,58 @@
 .App {
+  margin: 2rem; /* Task 3: Add padding around .menucard */
+  color: #333; /* Task 9: Refine typography */
+}
+
+.App h1 { /* Task 1: Center the main heading */
+  font-size: 2rem;
+
+}
+
+.menucard { /* Task 2, 3 & 4: Improve card spacing and make responsive */
+  margin-top: 3rem;
+
+}
+
+.card { /* Task 5, 6 & 7: Card design, shadow, and hover effect */
+  width: 100%;
   text-align: center;
-  background-color: #282c34;
-  color: white;
-  width: 100vw;
+  background: #f0f0f0; /* Task 10: Consider changing background color */
+  border: 1px solid #ddd; /* Task 10: May need to remove border for final design */
+
 }
 
-.header {
-  width: 100vw;
-  background-color: white;
-  color: black;
-}
-
-h1 {
-  margin-left: auto;
-  margin-right: auto;
-  /* ^ this centers .h1 within the header div */
-  padding: 10px 0;
-  width: 80vw;
-  font-size: 28px;
-}
-
-h2 {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0;
-  font-size: 24px;
-}
-
-h3 {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-.flex-container-row {
-  display: flex;
-  flex-direction: row;
+.m-image { 
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding: 10px
+  margin-bottom: 1rem;
+
 }
 
-.flex-container-col {
-  display: flex;
-  flex-direction: column;
+.m-image img {
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding: 10px;
+  display: block; /* Task 6: Make the images cover the area nicely */
+
 }
 
-.flex-item {
-  padding: 40px;
-  border-radius: 4px;
-  color: white;
-  background-color: rgb(70, 74, 106);
+.card h2 { /* Task 9: Typography and whitespace */
+  font-size: 1.2rem;
+
+}
+
+.card p { /* Task 9: Typography and whitespace */
+  font-size: 1rem;
+
+}
+
+/* Task 8: Media Queries */
+@media screen and (max-width: 850px) {
+  .App { /* Task 8: Adjust layout for smaller screens */
+    margin: 2rem; 
+  }
+  .menucard { /* Task 8: Responsive design for smaller screens */
+  
+  }
+  .card { /* Task 8: Responsive design for smaller screens */
+    width: 100%; 
+    margin-bottom: 1.5rem; /* Task 2: Improve spacing between stacked cards */
+  }
 }

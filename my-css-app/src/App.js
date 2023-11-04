@@ -1,92 +1,45 @@
 import logo from './logo.svg';
 import './App.css';
 
+import menuItem1 from "./assets/pizza.avif";
+import menuItem2 from "./assets/salad.avif";
+import menuItem3 from "./assets/spaghetti.avif";
+
+
 function App() {
     return (
         <div className="App">
-            <div className="header">
-                <h1>
-                    Flex container with flex direction "row" (note that we apply the properties for this text using the "h1" selector)
-                </h1>
-            </div>
-            <div className="flex-container-row">
-                <div className="flex-item">
-                    Item 1
-                </div>
-                <div className="flex-item">
-                    Item 2
-                </div>
-                <div className="flex-item">
-                    Item 3
-                </div>
-                <div className="flex-item">
-                    Item 4
-                </div>
-                <div className="flex-item">
-                    Item 5
-                </div>
-                <div className="flex-item">
-                    Item 6
-                </div>
-            </div>
-            <div className="header">
-                <h2>
-                    Flex container with flex direction "column" (note that we apply the properties for this text using the "h2" selector)
-                </h2>
-            </div>
-            <div className="flex-container-col">
-                <div className="flex-item">
-                    Item 1
-                </div>
-                <div className="flex-item">
-                    Item 2
-                </div>
-                <div className="flex-item">
-                    Item 3
-                </div>
-            </div>
-            <div className="header">
-                <h3>
-                    You can also nest flex containers!  (note that we apply the properties for this text using the "h3" selector)
-                </h3>
-            </div>
-            <div className="flex-container-row">
-                <div className="flex-container-col">
-                    <div className="flex-item">
-                        Item 1
-                    </div>
-                    <div className="flex-item">
-                        Item 2
-                    </div>
-                    <div className="flex-item">
-                        Item 3
-                    </div>
-                </div>
-                <div className="flex-container-col">
-                    <div className="flex-item">
-                        Item 4
-                    </div>
-                    <div className="flex-item">
-                        Item 5
-                    </div>
-                    <div className="flex-item">
-                        Item 6
-                    </div>
-                </div>
-                <div className="flex-container-col">
-                    <div className="flex-item">
-                        Item 7
-                    </div>
-                    <div className="flex-item">
-                        Item 8
-                    </div>
-                    <div className="flex-item">
-                        Item 9
-                    </div>
-                </div>
-            </div>
+        <h1>Our Menu</h1>
+        <p>Take a look at our delicious options!</p>
+  
+        <div className="menucard">
+          {/* Card 1 */}
+          <div className="card">
+            <img src={menuItem1} alt="Agosto 20 2023" class="m-image"/>
+            <h2>Pepperoni Pizza</h2>
+            <p>Try our delicious Pepperoni Pizza! 10.99</p>
+          </div>
+  
+          {/* Card 2 */}
+          <div className="card">
+            <img src={menuItem2} alt="Julio 15 2023" class="m-image"/>
+            <h2>Salad</h2>
+            <p>Try our amazing and healthy Salad! 7.99</p>
+          </div>
+  
+          {/* Card 3 */}
+          <div className="card">
+            <img src={menuItem3} alt="Junio 18 2023" class="m-image"/>
+            <h2>Spaghetti</h2>
+            <p>Try our wonderful Spaghetti. 11.99</p>
+          </div>
+
         </div>
+
+      </div>
     );
 }
+
+
 
 export default App;
