@@ -21,7 +21,7 @@
 
 }
 
-.m-image { 
+.m-image {
   width: 100%;
   margin-bottom: 1rem;
 
@@ -46,13 +46,13 @@
 /* Task 8: Media Queries */
 @media screen and (max-width: 850px) {
   .App { /* Task 8: Adjust layout for smaller screens */
-    margin: 2rem; 
+    margin: 2rem;
   }
   .menucard { /* Task 8: Responsive design for smaller screens */
-  
+
   }
   .card { /* Task 8: Responsive design for smaller screens */
-    width: 100%; 
+    width: 100%;
     margin-bottom: 1.5rem; /* Task 2: Improve spacing between stacked cards */
   }
 }
